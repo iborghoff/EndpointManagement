@@ -1,1 +1,2 @@
-* OneDriveHealthSyncReport.ps1 - This script will allow you to export devices from OneDrive Sync health dashboard which have sync errors.
+##### OneDriveHealthSyncReport.ps1 - 
+Script to export a report of devices with OneDrive sync errors from the OneDrive Sync health dashboard. You will require a Bearer token, more details on obtaining this can be found in the script.
