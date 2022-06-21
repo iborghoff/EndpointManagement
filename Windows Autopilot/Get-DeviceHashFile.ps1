@@ -1,7 +1,7 @@
 
 <#PSScriptInfo
 
-.VERSION 1.0
+.VERSION 1.1
 
 .GUID 46cd79ca-bb88-41dc-b2c5-ff1959cb25f6
 
@@ -27,12 +27,13 @@
 
 .RELEASENOTES
 Version 1.0: Initial publish.
+Version 1.1: Fix typo in description.
 
 #>
 
 <# 
 .DESCRIPTION 
- Retrieves the Windows AutoPilot device hash and saves it to a CSV file
+ Retrieves the Windows Autopilot device hash and saves it to a CSV file
 
  .PARAMETER outputfile
 The name and path of the CSV file to be created
