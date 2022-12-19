@@ -11,4 +11,4 @@ Usage examples:
 </ul>
 
 **OneDriveHealthSyncReport.ps1**<br>
-*This script will no longer return any results due to a change in the response format. Please use the Get-OneDriveSyncReport.ps1 function instead of the script*
+*This script will no longer return any results due to a change in the response format. Please use the Get-OneDriveSyncReport.ps1 function instead*
