@@ -6,13 +6,7 @@ This function will export the data from the OneDrive Sync report (https://config
 Usage examples:
 <ul>
   <li>Get-OneDriveSyncReport -bearertoken 'yourbearertoken'</li>
-  <ul>
-      <li>This will output to the console</li>
-    </ul>
   <li>Get-OneDriveSyncReport -bearertoken 'yourbearertoken' | Export-Excel C:\OneDriveReport.xlsx</li>
-  <ul>
-      <li>Requires the ImportExcel module</li>
-    </ul>
   <li>Get-OneDriveSyncReport -bearertoken 'yourbearertoken' | Export-CSV C:\OneDriveReport.csv</li>
 </ul>
 
