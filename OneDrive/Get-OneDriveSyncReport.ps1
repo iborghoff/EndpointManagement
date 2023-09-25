@@ -53,7 +53,7 @@ function Get-OneDriveSyncReport {
         $record."kfmOptInWithWizardGPOEnabled" = $user.kfmOptInWithWizardGPOEnabled
         $record."kfmSilentOptInGPOEnabled" = $user.kfmSilentOptInGPOEnabled
         $record."kfmFolderCount" = $user.kfmFolderCount
-        $record."kfmFolders" = $user.kfmFolders
+        $record."kfmFolders" = $user.kfmFolders | Out-String
         $record."totalErrorCount" = $user.totalErrorCount
         $record."lastUpToDateSyncTimestamp" = $user.lastUpToDateSyncTimestamp
         $record."reportTimestamp" = $user.reportTimestamp
@@ -114,7 +114,7 @@ function Get-OneDriveSyncReport {
             $record."kfmOptInWithWizardGPOEnabled" = $user.kfmOptInWithWizardGPOEnabled
             $record."kfmSilentOptInGPOEnabled" = $user.kfmSilentOptInGPOEnabled
             $record."kfmFolderCount" = $user.kfmFolderCount
-            $record."kfmFolders" = $user.kfmFolders
+            $record."kfmFolders" = $user.kfmFolders | Out-String
             $record."totalErrorCount" = $user.totalErrorCount
             $record."lastUpToDateSyncTimestamp" = $user.lastUpToDateSyncTimestamp
             $record."reportTimestamp" = $user.reportTimestamp
