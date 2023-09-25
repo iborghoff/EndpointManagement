@@ -38,6 +38,7 @@ function Get-OneDriveSyncReport {
             "kfmOptInWithWizardGPOEnabled" = ""
             "kfmSilentOptInGPOEnabled"     = ""
             "kfmFolderCount"               = ""
+            "kfmFolders"                   = ""
             "totalErrorCount"              = ""
             "lastUpToDateSyncTimestamp"    = ""
             "reportTimestamp"              = ""
@@ -52,6 +53,7 @@ function Get-OneDriveSyncReport {
         $record."kfmOptInWithWizardGPOEnabled" = $user.kfmOptInWithWizardGPOEnabled
         $record."kfmSilentOptInGPOEnabled" = $user.kfmSilentOptInGPOEnabled
         $record."kfmFolderCount" = $user.kfmFolderCount
+        $record."kfmFolders" = $user.kfmFolders
         $record."totalErrorCount" = $user.totalErrorCount
         $record."lastUpToDateSyncTimestamp" = $user.lastUpToDateSyncTimestamp
         $record."reportTimestamp" = $user.reportTimestamp
@@ -97,6 +99,7 @@ function Get-OneDriveSyncReport {
                 "kfmOptInWithWizardGPOEnabled" = ""
                 "kfmSilentOptInGPOEnabled"     = ""
                 "kfmFolderCount"               = ""
+                "kfmFolders"                   = ""
                 "totalErrorCount"              = ""
                 "lastUpToDateSyncTimestamp"    = ""
                 "reportTimestamp"              = ""
@@ -111,6 +114,7 @@ function Get-OneDriveSyncReport {
             $record."kfmOptInWithWizardGPOEnabled" = $user.kfmOptInWithWizardGPOEnabled
             $record."kfmSilentOptInGPOEnabled" = $user.kfmSilentOptInGPOEnabled
             $record."kfmFolderCount" = $user.kfmFolderCount
+            $record."kfmFolders" = $user.kfmFolders
             $record."totalErrorCount" = $user.totalErrorCount
             $record."lastUpToDateSyncTimestamp" = $user.lastUpToDateSyncTimestamp
             $record."reportTimestamp" = $user.reportTimestamp
@@ -124,5 +128,5 @@ function Get-OneDriveSyncReport {
         }
     }
 
-    $reportarray | Select-Object userName, userEmail, deviceName, kfmState, kfmOptInWithWizardGPOEnabled, kfmSilentOptInGPOEnabled, kfmFolderCount, totalErrorCount, lastUpToDateSyncTimestamp, reportTimestamp, oneDriveDeviceId, oneDriveVersion, updateRing 
+    $reportarray | Select-Object userName, userEmail, deviceName, kfmState, kfmOptInWithWizardGPOEnabled, kfmSilentOptInGPOEnabled, kfmFolderCount, kfmFolders, totalErrorCount, lastUpToDateSyncTimestamp, reportTimestamp, oneDriveDeviceId, oneDriveVersion, updateRing 
 }
