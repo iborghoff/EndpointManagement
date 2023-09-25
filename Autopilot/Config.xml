@@ -1,0 +1,45 @@
+<Config>
+    <_242>
+        <TimeZone>GMT Standard Time</TimeZone>
+        <Language>Language-en-GB.xml</Language>
+        <LanguagePack>
+            <Cab>Microsoft-Windows-Client-Language-Pack_x64_en-gb.cab</Cab>
+        </LanguagePack>
+        <AddFeatures>
+            <Feature>Language.Basic~~~en-GB~0.0.1.0</Feature>
+            <Feature>Language.Handwriting~~~en-GB~0.0.1.0</Feature>
+            <Feature>Language.OCR~~~en-GB~0.0.1.0</Feature>
+            <Feature>Language.Speech~~~en-GB~0.0.1.0</Feature>
+            <Feature>Language.TextToSpeech~~~en-GB~0.0.1.0</Feature>
+        </AddFeatures>
+    </_242>
+    <RemoveApps>
+        <App>Microsoft.BingWeather</App>
+        <App>Microsoft.DesktopAppInstaller</App>
+        <App>Microsoft.Getstarted</App>
+        <App>Microsoft.Messaging</App>
+        <App>Microsoft.Microsoft3DViewer</App>
+        <App>Microsoft.MicrosoftOfficeHub</App>
+        <App>Microsoft.MicrosoftSolitaireCollection</App>
+        <App>Microsoft.MixedReality.Portal</App>
+        <App>Microsoft.MSPaint</App>
+        <App>Microsoft.OneConnect</App>
+        <App>Microsoft.Print3D</App>
+        <App>Microsoft.SkypeApp</App>
+        <App>microsoft.windowscommunicationsapps</App>
+        <App>Microsoft.WindowsFeedbackHub</App>
+        <App>Microsoft.XboxApp</App>
+        <App>Microsoft.YourPhone</App>
+        <App>Microsoft.ZuneMusic</App>
+        <App>Microsoft.ZuneVideo</App>
+    </RemoveApps>
+    <AddFeatures>
+        <Feature>NetFX3~~~~</Feature>
+    </AddFeatures>
+    <RegisteredOwner>Company Name</RegisteredOwner>
+    <RegisteredOrganization>Company Name</RegisteredOrganization>
+    <OEMInfo>
+        <Manufacturer>Company Name</Manufacturer>
+        <SupportURL>Support URL</SupportURL>
+    </OEMInfo>
+</Config>
